@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		C5B649122BD111A100ACB9C5 /* ransomware_C_macos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ransomware_C_macos; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B649152BD111A100ACB9C5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C5B6491C2BD111CA00ACB9C5 /* encrypt_decrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encrypt_decrypt.h; sourceTree = "<group>"; };
+		C5B6491D2BD111E800ACB9C5 /* list_dir.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list_dir.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		C5B649142BD111A100ACB9C5 /* ransomware_C_macos */ = {
 			isa = PBXGroup;
 			children = (
+				C5B6491C2BD111CA00ACB9C5 /* encrypt_decrypt.h */,
 				C5B649152BD111A100ACB9C5 /* main.c */,
+				C5B6491D2BD111E800ACB9C5 /* list_dir.h */,
 			);
 			path = ransomware_C_macos;
 			sourceTree = "<group>";
