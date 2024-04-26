@@ -8,15 +8,6 @@
 #ifndef encrypt_decrypt_h
 #define encrypt_decrypt_h
 
-void list_file_dir(char* location){
-    struct dirent *dir;
-    DIR *d=opendir(location);
-    if(d){
-        while((dir=readdir(d))!=NULL){
-            printf("%s", dir->d_name);
-        }
-    }
-    closedir(d);
-}
+
 
 #endif /* encrypt_decrypt_h */
