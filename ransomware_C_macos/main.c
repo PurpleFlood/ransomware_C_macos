@@ -10,16 +10,19 @@
 #include <dirent.h>
 #include "encrypt_decrypt.h"
 #include "list_dir.h"
+#include "pile_depile.h"
+
+Pile *initialisationPile();
+void empiler(Pile *pile, int nvNombre);
+int depiler(Pile *pile);
+void afficherPile(Pile *pile);
 
 int main(int argc, const char * argv[]) {
     
-    char* tableau[100];
-    char* location="/Users/asap/Desktop/";
+    
+    char* location="/Users/asap/Documents/git/ransomware_C_macos/ransomware_C_macos/ransomware_C_macos/test";
     list_file_dir(location);
-    printf("%s", tableau);
-    for(int i=0;i<100;i++){
-        printf("%s\n", tableau[i]);
-    }
+    
     
     return 0;
 }
